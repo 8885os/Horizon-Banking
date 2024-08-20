@@ -21,7 +21,6 @@ const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
 					</div>
 				</div>
 			</section>
-
 			<section className='banks'>
 				<div className='flex w-full justify-between'>
 					<h2 className='header-2'>My Banks</h2>
@@ -30,7 +29,6 @@ const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
 						<h2 className='text-14 font-semibold text-gray-600'>Add Bank</h2>
 					</Link>
 				</div>
-
 				{banks?.length > 0 && (
 					<div className='relative flex flex-1 flex-col items-center justify-center gap-5'>
 						<div className='relative z-10'>
